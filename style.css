@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    user-select: none;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.6;
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+::placeholder {
+    font-size: 17px;
+    text-transform: capitalize;
+
+}
+
+.container {
+    background-image: linear-gradient(27deg, #d80d0d 10%, #ffc400 100%);
+    width: 65%;
+    height: 60vh;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    position: relative;
+}
+
+.line-col {
+    background-color: #10105e;
+    min-height: 80vh;
+    width: 27vw;
+    margin-right: 2rem;
+    border-radius: 4px;
+}
+
+.titleList {
+    position: absolute;
+    left: 40px;
+}
+
+.titleList h1 {
+    font-size: 8.5rem;
+    font-weight: bolder;
+    color: #ffffff;
+    line-height: 120px;
+}
+
+.formControl {
+    font-weight: 500;
+    padding: 20px 0 0 20px;
+}
+
+.flexTO {
+    display: flex;
+    align-items: center;
+}
+
+.flexTO h3 {
+    font-weight: 500;
+    font-size: 2rem;
+    color: #ffffff;
+}
+
+.flexTO ion-icon {
+    font-size: 2.3rem;
+    color: #ffffff;
+    margin-left: 4px;
+}
+
+.inputField {
+    margin: 10px 0;
+    position: relative;
+    width: 90%;
+}
+
+#todoValue {
+    padding: 15px 15px;
+    width: 100%;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+}
+
+#btnRsult {
+    position: absolute;
+    right: 0%;
+    top: 0%;
+    padding: 6.5px 20px;
+    background-color: #ffc400;
+    border-radius: 0 5px 5px 0;
+    border: none;
+    font-size: 32px;
+    cursor: pointer;
+    font-weight: 700;
+    outline: none;
+    display: flex;
+}
+
+.ulList {
+    color: #ffffff;
+    list-style-type: decimal;
+    text-transform: capitalize;
+    padding: 0 10px;
+    margin: 0 10px;
+    width: 90%;
+}
+
+.ulList li {
+    margin-top: 7px;
+    user-select: none;
+    cursor: pointer;
+}
+
+.ulList li.deleteTask {
+    color: #d6d5d5c5;
+    text-decoration: line-through;
+}
+
+.btnRemove {
+    background-color: transparent;
+    border-radius: 2px;
+    border: none;
+    outline: none;
+    font-size: 24px;
+    float: right;
+    color: #fff;
+    cursor: pointer;
+    display: flex;
+}
